@@ -179,6 +179,10 @@ const CONFIG = {
 					name: 'Trello',
 					link: 'https://www.trello.com',
 				},
+				{
+					name: 'Repos',
+					link: 'https://github.com/RDkhoa',
+				},
 			],
 		},
 	],
