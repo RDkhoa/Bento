@@ -11,30 +11,33 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Rödhake',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
-  title: 'Bento',
+  title: 'Homepage',
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Guten morgen!',
+	greetingAfternoon: 'Guten tag,',
+	greetingEvening: 'Guten abend,',
+	greetingNight: 'Geh ins Bett!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	
+	// Theme
+	theme: 'latte-frappe',
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '5a897f4102327df4bdc7ace580a776a0', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '51.331699',
+	defaultLongitude: '6.559350',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -43,7 +46,7 @@ const CONFIG = {
 	changeThemeByOS: true,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
+	changeThemeByHour: true,
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
